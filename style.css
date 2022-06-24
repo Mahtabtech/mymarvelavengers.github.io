@@ -52,7 +52,7 @@
 }
 @keyframes batman-run {
     0%{left: -10%;}
-    100%{left: 85%;}
+    100%{left: 80%;}
 }
 .img-bord{
     border-radius: 20px;
