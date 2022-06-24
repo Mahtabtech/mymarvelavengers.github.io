@@ -1,0 +1,89 @@
+@font-face {
+    font-family: contents;
+    src: url('Padauk-Regular.ttf');
+}
+@font-face {
+    font-family: headings;
+    src: url('Nunito-ExtraBold.ttf');
+}
+@font-face {
+    font-family: content;
+    src: url('Nunito-SemiBold.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: contents;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.text-effects{
+    text-shadow: 2px 2px 2px gray;
+    font-family: headings;
+}
+.text-effects:hover{
+    color: #414554;
+    cursor: pointer;
+}
+.card{
+    box-shadow: 2px 2px 3px gray;
+}
+.bat-run{
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+.bat-run img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: -15px;
+    animation: batman-run 6s linear infinite;
+}
+@keyframes batman-run {
+    0%{left: -10%;}
+    100%{left: 85%;}
+}
+.img-bord{
+    border-radius: 20px;
+}
+.form-control{
+    border-radius: 50px;
+}
+.multi-column{
+    column-count: 3;
+    column-gap: 30px;
+    text-align: justify;
+    column-rule: dashed;
+}
+.hfont{
+    font-family: headings;
+}
+.flex-box{
+    height: 70px;
+    background-image: linear-gradient(to left, #e81ae1, #e81a84);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.linear-grad{
+    background-image: linear-gradient(to left, #e81ae1, #507fde);
+}
+.text-wanna{
+    font-family: content;
+    text-shadow: 2px 2px 2px black
+}
+footer{
+				font-size: 14px;
+}
