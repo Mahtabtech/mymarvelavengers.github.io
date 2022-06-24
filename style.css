@@ -218,10 +218,9 @@ footer{
     width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background:  lightgrey;
-    border-radius: 50px;
+    background:  linear-gradient(transparent, lightgrey);
+    border-radius: 10px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
-    background: grey;
+    background:  linear-gradient(transparent, grey);
 }
